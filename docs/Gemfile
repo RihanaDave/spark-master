@@ -22,7 +22,7 @@ source "https://rubygems.org"
 # To update the lock file, run `bundle update`.
 # Version constraint reference: https://guides.rubygems.org/patterns/#declaring-dependencies
 
-gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 4.3", ">= 4.3.4"
 gem "jekyll-redirect-from", "~> 0.16"
 # Rouge 4.0 drops support for Ruby < 2.7, which is EOL.
 # See: https://github.com/rouge-ruby/rouge/blob/61bdda18f204a661413daa93d9624bc65ad219a5/CHANGELOG.md#version-400-2022-09-04
